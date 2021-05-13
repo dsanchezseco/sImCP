@@ -1,4 +1,865 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 609D5E00
+P 7500 1350
+F 0 "MX1" H 7533 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 1499 20  0000 C CNN
+F 2 "" H 6875 1325 60  0001 C CNN
+F 3 "" H 6875 1325 60  0001 C CNN
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 609D6D6C
+P 7300 1600
+F 0 "D1" V 7346 1530 50  0000 R CNN
+F 1 "D_Small" V 7255 1530 50  0000 R CNN
+F 2 "" V 7300 1600 50  0001 C CNN
+F 3 "~" V 7300 1600 50  0001 C CNN
+	1    7300 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 1500 7300 1500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 60A098E6
+P 7500 2300
+F 0 "MX2" H 7533 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 2449 20  0000 C CNN
+F 2 "" H 6875 2275 60  0001 C CNN
+F 3 "" H 6875 2275 60  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 60A098EC
+P 7300 2550
+F 0 "D2" V 7346 2480 50  0000 R CNN
+F 1 "D_Small" V 7255 2480 50  0000 R CNN
+F 2 "" V 7300 2550 50  0001 C CNN
+F 3 "~" V 7300 2550 50  0001 C CNN
+	1    7300 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 2450 7300 2450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 60A0AA45
+P 7500 2950
+F 0 "MX3" H 7533 3173 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 3099 20  0000 C CNN
+F 2 "" H 6875 2925 60  0001 C CNN
+F 3 "" H 6875 2925 60  0001 C CNN
+	1    7500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 60A0AA4B
+P 7300 3200
+F 0 "D3" V 7346 3130 50  0000 R CNN
+F 1 "D_Small" V 7255 3130 50  0000 R CNN
+F 2 "" V 7300 3200 50  0001 C CNN
+F 3 "~" V 7300 3200 50  0001 C CNN
+	1    7300 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3100 7300 3100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 60A0F80A
+P 7500 3600
+F 0 "MX4" H 7533 3823 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 3749 20  0000 C CNN
+F 2 "" H 6875 3575 60  0001 C CNN
+F 3 "" H 6875 3575 60  0001 C CNN
+	1    7500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 60A0F810
+P 7300 3850
+F 0 "D4" V 7346 3780 50  0000 R CNN
+F 1 "D_Small" V 7255 3780 50  0000 R CNN
+F 2 "" V 7300 3850 50  0001 C CNN
+F 3 "~" V 7300 3850 50  0001 C CNN
+	1    7300 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3750 7300 3750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 60A0F817
+P 7500 4250
+F 0 "MX5" H 7533 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 4399 20  0000 C CNN
+F 2 "" H 6875 4225 60  0001 C CNN
+F 3 "" H 6875 4225 60  0001 C CNN
+	1    7500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 60A0F81D
+P 7300 4500
+F 0 "D5" V 7346 4430 50  0000 R CNN
+F 1 "D_Small" V 7255 4430 50  0000 R CNN
+F 2 "" V 7300 4500 50  0001 C CNN
+F 3 "~" V 7300 4500 50  0001 C CNN
+	1    7300 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4400 7300 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 60A1675A
+P 8100 2300
+F 0 "MX7" H 8133 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 2449 20  0000 C CNN
+F 2 "" H 7475 2275 60  0001 C CNN
+F 3 "" H 7475 2275 60  0001 C CNN
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 60A16760
+P 7900 2550
+F 0 "D7" V 7946 2480 50  0000 R CNN
+F 1 "D_Small" V 7855 2480 50  0000 R CNN
+F 2 "" V 7900 2550 50  0001 C CNN
+F 3 "~" V 7900 2550 50  0001 C CNN
+	1    7900 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 2450 7900 2450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 60A16767
+P 8100 2950
+F 0 "MX8" H 8133 3173 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 3099 20  0000 C CNN
+F 2 "" H 7475 2925 60  0001 C CNN
+F 3 "" H 7475 2925 60  0001 C CNN
+	1    8100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 60A1676D
+P 7900 3200
+F 0 "D8" V 7946 3130 50  0000 R CNN
+F 1 "D_Small" V 7855 3130 50  0000 R CNN
+F 2 "" V 7900 3200 50  0001 C CNN
+F 3 "~" V 7900 3200 50  0001 C CNN
+	1    7900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3100 7900 3100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 60A16774
+P 8100 3600
+F 0 "MX9" H 8133 3823 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 3749 20  0000 C CNN
+F 2 "" H 7475 3575 60  0001 C CNN
+F 3 "" H 7475 3575 60  0001 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 60A1677A
+P 7900 3850
+F 0 "D9" V 7946 3780 50  0000 R CNN
+F 1 "D_Small" V 7855 3780 50  0000 R CNN
+F 2 "" V 7900 3850 50  0001 C CNN
+F 3 "~" V 7900 3850 50  0001 C CNN
+	1    7900 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3750 7900 3750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 60A16781
+P 8100 4250
+F 0 "MX10" H 8133 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 4399 20  0000 C CNN
+F 2 "" H 7475 4225 60  0001 C CNN
+F 3 "" H 7475 4225 60  0001 C CNN
+	1    8100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 60A16787
+P 7900 4500
+F 0 "D10" V 7946 4430 50  0000 R CNN
+F 1 "D_Small" V 7855 4430 50  0000 R CNN
+F 2 "" V 7900 4500 50  0001 C CNN
+F 3 "~" V 7900 4500 50  0001 C CNN
+	1    7900 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 4400 7900 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 60A1A0DE
+P 8700 2300
+F 0 "MX12" H 8733 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 2449 20  0000 C CNN
+F 2 "" H 8075 2275 60  0001 C CNN
+F 3 "" H 8075 2275 60  0001 C CNN
+	1    8700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 60A1A0E4
+P 8500 2550
+F 0 "D12" V 8546 2480 50  0000 R CNN
+F 1 "D_Small" V 8455 2480 50  0000 R CNN
+F 2 "" V 8500 2550 50  0001 C CNN
+F 3 "~" V 8500 2550 50  0001 C CNN
+	1    8500 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 2450 8500 2450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 60A1A0EB
+P 8700 2950
+F 0 "MX13" H 8733 3173 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 3099 20  0000 C CNN
+F 2 "" H 8075 2925 60  0001 C CNN
+F 3 "" H 8075 2925 60  0001 C CNN
+	1    8700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 60A1A0F1
+P 8500 3200
+F 0 "D13" V 8546 3130 50  0000 R CNN
+F 1 "D_Small" V 8455 3130 50  0000 R CNN
+F 2 "" V 8500 3200 50  0001 C CNN
+F 3 "~" V 8500 3200 50  0001 C CNN
+	1    8500 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 3100 8500 3100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 60A1A0F8
+P 8700 3600
+F 0 "MX14" H 8733 3823 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 3749 20  0000 C CNN
+F 2 "" H 8075 3575 60  0001 C CNN
+F 3 "" H 8075 3575 60  0001 C CNN
+	1    8700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 60A1A0FE
+P 8500 3850
+F 0 "D14" V 8546 3780 50  0000 R CNN
+F 1 "D_Small" V 8455 3780 50  0000 R CNN
+F 2 "" V 8500 3850 50  0001 C CNN
+F 3 "~" V 8500 3850 50  0001 C CNN
+	1    8500 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 3750 8500 3750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 60A1A105
+P 8700 4250
+F 0 "MX15" H 8733 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 4399 20  0000 C CNN
+F 2 "" H 8075 4225 60  0001 C CNN
+F 3 "" H 8075 4225 60  0001 C CNN
+	1    8700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 60A1A10B
+P 8500 4500
+F 0 "D15" V 8546 4430 50  0000 R CNN
+F 1 "D_Small" V 8455 4430 50  0000 R CNN
+F 2 "" V 8500 4500 50  0001 C CNN
+F 3 "~" V 8500 4500 50  0001 C CNN
+	1    8500 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 4400 8500 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 60A21AF2
+P 10750 2300
+F 0 "MX18" H 10783 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 10783 2449 20  0000 C CNN
+F 2 "" H 10125 2275 60  0001 C CNN
+F 3 "" H 10125 2275 60  0001 C CNN
+	1    10750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 60A21AF8
+P 10550 2550
+F 0 "D18" V 10596 2480 50  0000 R CNN
+F 1 "D_Small" V 10505 2480 50  0000 R CNN
+F 2 "" V 10550 2550 50  0001 C CNN
+F 3 "~" V 10550 2550 50  0001 C CNN
+	1    10550 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 2450 10550 2450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 60A21AFF
+P 10750 2950
+F 0 "MX19" H 10783 3173 60  0000 C CNN
+F 1 "MX-NoLED" H 10783 3099 20  0000 C CNN
+F 2 "" H 10125 2925 60  0001 C CNN
+F 3 "" H 10125 2925 60  0001 C CNN
+	1    10750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 60A21B05
+P 10550 3200
+F 0 "D19" V 10596 3130 50  0000 R CNN
+F 1 "D_Small" V 10505 3130 50  0000 R CNN
+F 2 "" V 10550 3200 50  0001 C CNN
+F 3 "~" V 10550 3200 50  0001 C CNN
+	1    10550 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 3100 10550 3100
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 60A21B0C
+P 10750 3600
+F 0 "MX20" H 10783 3823 60  0000 C CNN
+F 1 "MX-NoLED" H 10783 3749 20  0000 C CNN
+F 2 "" H 10125 3575 60  0001 C CNN
+F 3 "" H 10125 3575 60  0001 C CNN
+	1    10750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 60A21B12
+P 10550 3850
+F 0 "D20" V 10596 3780 50  0000 R CNN
+F 1 "D_Small" V 10505 3780 50  0000 R CNN
+F 2 "" V 10550 3850 50  0001 C CNN
+F 3 "~" V 10550 3850 50  0001 C CNN
+	1    10550 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 3750 10550 3750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 60A21B19
+P 10750 4250
+F 0 "MX21" H 10783 4473 60  0000 C CNN
+F 1 "MX-NoLED" H 10783 4399 20  0000 C CNN
+F 2 "" H 10125 4225 60  0001 C CNN
+F 3 "" H 10125 4225 60  0001 C CNN
+	1    10750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 60A21B1F
+P 10550 4500
+F 0 "D21" V 10596 4430 50  0000 R CNN
+F 1 "D_Small" V 10505 4430 50  0000 R CNN
+F 2 "" V 10550 4500 50  0001 C CNN
+F 3 "~" V 10550 4500 50  0001 C CNN
+	1    10550 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 4400 10550 4400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 60A23D2E
+P 8100 1350
+F 0 "MX6" H 8133 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 1499 20  0000 C CNN
+F 2 "" H 7475 1325 60  0001 C CNN
+F 3 "" H 7475 1325 60  0001 C CNN
+	1    8100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 60A23D34
+P 7900 1600
+F 0 "D6" V 7946 1530 50  0000 R CNN
+F 1 "D_Small" V 7855 1530 50  0000 R CNN
+F 2 "" V 7900 1600 50  0001 C CNN
+F 3 "~" V 7900 1600 50  0001 C CNN
+	1    7900 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 1500 7900 1500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 60A274A8
+P 8700 1350
+F 0 "MX11" H 8733 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 1499 20  0000 C CNN
+F 2 "" H 8075 1325 60  0001 C CNN
+F 3 "" H 8075 1325 60  0001 C CNN
+	1    8700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 60A274AE
+P 8500 1600
+F 0 "D11" V 8546 1530 50  0000 R CNN
+F 1 "D_Small" V 8455 1530 50  0000 R CNN
+F 2 "" V 8500 1600 50  0001 C CNN
+F 3 "~" V 8500 1600 50  0001 C CNN
+	1    8500 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 1500 8500 1500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 60A274B5
+P 9300 1350
+F 0 "MX16" H 9333 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 9333 1499 20  0000 C CNN
+F 2 "" H 8675 1325 60  0001 C CNN
+F 3 "" H 8675 1325 60  0001 C CNN
+	1    9300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 60A274BB
+P 9100 1600
+F 0 "D16" V 9146 1530 50  0000 R CNN
+F 1 "D_Small" V 9055 1530 50  0000 R CNN
+F 2 "" V 9100 1600 50  0001 C CNN
+F 3 "~" V 9100 1600 50  0001 C CNN
+	1    9100 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 1500 9100 1500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 60A2C785
+P 10750 1350
+F 0 "MX17" H 10783 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 10783 1499 20  0000 C CNN
+F 2 "" H 10125 1325 60  0001 C CNN
+F 3 "" H 10125 1325 60  0001 C CNN
+	1    10750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60A2C78B
+P 10550 1600
+F 0 "D?" H 10550 1807 50  0000 C CNN
+F 1 "D_Small" H 10550 1716 50  0000 C CNN
+F 2 "" V 10550 1600 50  0001 C CNN
+F 3 "~" V 10550 1600 50  0001 C CNN
+	1    10550 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 1500 10550 1500
+Wire Wire Line
+	7300 1700 7900 1700
+Connection ~ 7900 1700
+Wire Wire Line
+	7900 1700 8500 1700
+Connection ~ 8500 1700
+Wire Wire Line
+	8500 1700 9100 1700
+Connection ~ 9100 1700
+Wire Wire Line
+	9100 1700 10550 1700
+Wire Wire Line
+	7300 2650 7900 2650
+Connection ~ 7900 2650
+Wire Wire Line
+	7900 2650 8500 2650
+Connection ~ 8500 2650
+Wire Wire Line
+	8500 2650 9100 2650
+Wire Wire Line
+	7300 3300 7900 3300
+Connection ~ 7900 3300
+Wire Wire Line
+	7900 3300 8500 3300
+Connection ~ 8500 3300
+Wire Wire Line
+	8500 3300 9100 3300
+Connection ~ 7900 3950
+Wire Wire Line
+	7900 3950 8500 3950
+Wire Wire Line
+	7300 4600 7900 4600
+Connection ~ 7900 4600
+Wire Wire Line
+	7900 4600 8500 4600
+Connection ~ 8500 4600
+Wire Wire Line
+	8500 4600 9100 4600
+Wire Wire Line
+	7650 1300 7650 2250
+Connection ~ 7650 2250
+Wire Wire Line
+	7650 2250 7650 2900
+Connection ~ 7650 2900
+Wire Wire Line
+	7650 2900 7650 3550
+Connection ~ 7650 3550
+Wire Wire Line
+	7650 3550 7650 4200
+Wire Wire Line
+	8250 1300 8250 2250
+Connection ~ 8250 2250
+Wire Wire Line
+	8250 2250 8250 2900
+Connection ~ 8250 2900
+Wire Wire Line
+	8250 2900 8250 3550
+Connection ~ 8250 3550
+Wire Wire Line
+	8250 3550 8250 4200
+Wire Wire Line
+	8850 1300 8850 2250
+Connection ~ 8850 2250
+Wire Wire Line
+	8850 2250 8850 2900
+Connection ~ 8850 2900
+Wire Wire Line
+	8850 2900 8850 3550
+Connection ~ 8850 3550
+Wire Wire Line
+	8850 3550 8850 4200
+Wire Wire Line
+	10900 1300 10900 2250
+Connection ~ 10900 2250
+Wire Wire Line
+	10900 2250 10900 2900
+Connection ~ 10900 2900
+Wire Wire Line
+	10900 2900 10900 3550
+Connection ~ 10900 3550
+Wire Wire Line
+	10900 3550 10900 4200
+Text GLabel 7000 1700 0    50   Input ~ 0
+ROW0
+Text GLabel 7000 2650 0    50   Input ~ 0
+ROW1
+Text GLabel 7000 3300 0    50   Input ~ 0
+ROW2
+Text GLabel 7000 3950 0    50   Input ~ 0
+ROW3
+Text GLabel 7000 4600 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	7300 1700 7000 1700
+Connection ~ 7300 1700
+Wire Wire Line
+	7300 2650 7000 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7300 3300 7000 3300
+Connection ~ 7300 3300
+Wire Wire Line
+	7000 3950 7300 3950
+Connection ~ 7300 3950
+Wire Wire Line
+	7300 3950 7900 3950
+Wire Wire Line
+	7000 4600 7300 4600
+Connection ~ 7300 4600
+Text GLabel 7650 950  1    50   Input ~ 0
+COL0
+Text GLabel 8250 950  1    50   Input ~ 0
+COL1
+Text GLabel 8850 950  1    50   Input ~ 0
+COL2
+Text GLabel 9450 950  1    50   Input ~ 0
+COL3
+Text GLabel 10900 950  1    50   Input ~ 0
+COL4
+Wire Wire Line
+	7650 950  7650 1300
+Connection ~ 7650 1300
+Wire Wire Line
+	8250 950  8250 1300
+Connection ~ 8250 1300
+Wire Wire Line
+	8850 950  8850 1300
+Connection ~ 8850 1300
+Wire Wire Line
+	9450 1300 9450 950 
+Wire Wire Line
+	10900 1300 10900 950 
+Connection ~ 10900 1300
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60A4B81A
+P 2800 7600
+F 0 "H4" H 2900 7646 50  0000 L CNN
+F 1 "MountingHole" H 2900 7555 50  0000 L CNN
+F 2 "" H 2800 7600 50  0001 C CNN
+F 3 "~" H 2800 7600 50  0001 C CNN
+	1    2800 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60A4D4C9
+P 700 7600
+F 0 "H1" H 800 7646 50  0000 L CNN
+F 1 "MountingHole" H 800 7555 50  0000 L CNN
+F 2 "" H 700 7600 50  0001 C CNN
+F 3 "~" H 700 7600 50  0001 C CNN
+	1    700  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60A4EA02
+P 1400 7600
+F 0 "H2" H 1500 7646 50  0000 L CNN
+F 1 "MountingHole" H 1500 7555 50  0000 L CNN
+F 2 "" H 1400 7600 50  0001 C CNN
+F 3 "~" H 1400 7600 50  0001 C CNN
+	1    1400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60A4FF3C
+P 2100 7600
+F 0 "H3" H 2200 7646 50  0000 L CNN
+F 1 "MountingHole" H 2200 7555 50  0000 L CNN
+F 2 "" H 2100 7600 50  0001 C CNN
+F 3 "~" H 2100 7600 50  0001 C CNN
+	1    2100 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RE1
+U 1 1 60A514DC
+P 8200 5850
+F 0 "RE1" H 8200 6217 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8200 6126 50  0000 C CNN
+F 2 "" H 8050 6010 50  0001 C CNN
+F 3 "~" H 8200 6110 50  0001 C CNN
+	1    8200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RE2
+U 1 1 60A65248
+P 9900 5850
+F 0 "RE2" H 9900 6217 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 9900 6126 50  0000 C CNN
+F 2 "" H 9750 6010 50  0001 C CNN
+F 3 "~" H 9900 6110 50  0001 C CNN
+	1    9900 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 5850 0    50   Input ~ 0
+GND
+Text GLabel 7600 5850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	7600 5850 7900 5850
+Wire Wire Line
+	9350 5850 9600 5850
+Text GLabel 7600 5750 0    50   Input ~ 0
+R1A
+Text GLabel 7600 5950 0    50   Input ~ 0
+R1B
+Text GLabel 9350 5750 0    50   Input ~ 0
+R2A
+Text GLabel 9350 5950 0    50   Input ~ 0
+R2B
+Wire Wire Line
+	7600 5750 7900 5750
+Wire Wire Line
+	7600 5950 7900 5950
+Wire Wire Line
+	9350 5750 9600 5750
+Wire Wire Line
+	9350 5950 9600 5950
+Text GLabel 10450 5750 2    50   Input ~ 0
+COL3
+Wire Wire Line
+	10450 5750 10200 5750
+Text GLabel 8750 5750 2    50   Input ~ 0
+COL3
+Wire Wire Line
+	8750 5750 8500 5750
+Text GLabel 10450 5950 2    50   Input ~ 0
+RS2
+Text GLabel 8750 5950 2    50   Input ~ 0
+RS1
+Wire Wire Line
+	8500 5950 8750 5950
+Wire Wire Line
+	10200 5950 10450 5950
+$Comp
+L Device:D_Small DS1
+U 1 1 60A91A5E
+P 9100 2550
+F 0 "DS1" V 9146 2480 50  0000 R CNN
+F 1 "D_Small" V 9055 2480 50  0000 R CNN
+F 2 "" V 9100 2550 50  0001 C CNN
+F 3 "~" V 9100 2550 50  0001 C CNN
+	1    9100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small DS2
+U 1 1 60A93BA3
+P 9100 3200
+F 0 "DS2" V 9146 3130 50  0000 R CNN
+F 1 "D_Small" V 9055 3130 50  0000 R CNN
+F 2 "" V 9100 3200 50  0001 C CNN
+F 3 "~" V 9100 3200 50  0001 C CNN
+	1    9100 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9100 3300
+Wire Wire Line
+	9100 3300 10550 3300
+Text GLabel 9350 2350 2    50   Input ~ 0
+RS1
+Text GLabel 9350 3000 2    50   Input ~ 0
+RS2
+Wire Wire Line
+	9350 3000 9100 3000
+Wire Wire Line
+	9100 3000 9100 3100
+Wire Wire Line
+	9350 2350 9100 2350
+Wire Wire Line
+	9100 2350 9100 2450
+$Comp
+L Switch:SW_SPDT_MSM SW?
+U 1 1 60A9FC05
+P 6450 5850
+F 0 "SW?" H 6450 5525 50  0000 C CNN
+F 1 "Momentary Rocker Switch" H 6450 5616 50  0000 C CNN
+F 2 "" H 6450 5850 50  0001 C CNN
+F 3 "~" H 6450 5850 50  0001 C CNN
+	1    6450 5850
+	-1   0    0    1   
+$EndComp
+Text GLabel 6900 5850 2    50   Input ~ 0
+COL3
+Wire Wire Line
+	8500 3950 9100 3950
+Connection ~ 8500 3950
+Wire Wire Line
+	6900 5850 6650 5850
+Text GLabel 5950 5750 0    50   Input ~ 0
+MS1
+Text GLabel 5950 5950 0    50   Input ~ 0
+MS2
+Wire Wire Line
+	5950 5750 6250 5750
+Wire Wire Line
+	6250 5950 5950 5950
+$Comp
+L Device:D_Small DM1
+U 1 1 60AB44A7
+P 9100 3850
+F 0 "DM1" V 9146 3780 50  0000 R CNN
+F 1 "D_Small" V 9055 3780 50  0000 R CNN
+F 2 "" V 9100 3850 50  0001 C CNN
+F 3 "~" V 9100 3850 50  0001 C CNN
+	1    9100 3850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9350 3650 2    50   Input ~ 0
+MS1
+Wire Wire Line
+	9350 3650 9100 3650
+Wire Wire Line
+	9100 3650 9100 3750
+$Comp
+L Device:D_Small DM2
+U 1 1 60AB7D1C
+P 9100 4500
+F 0 "DM2" V 9146 4430 50  0000 R CNN
+F 1 "D_Small" V 9055 4430 50  0000 R CNN
+F 2 "" V 9100 4500 50  0001 C CNN
+F 3 "~" V 9100 4500 50  0001 C CNN
+	1    9100 4500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9350 4300 2    50   Input ~ 0
+MS2
+Wire Wire Line
+	9350 4300 9100 4300
+Wire Wire Line
+	9100 4300 9100 4400
+Connection ~ 9100 2650
+Wire Wire Line
+	9100 2650 10550 2650
+Connection ~ 9100 3950
+Wire Wire Line
+	9100 3950 10550 3950
+Connection ~ 9100 4600
+Wire Wire Line
+	9100 4600 10550 4600
 $EndSCHEMATC
