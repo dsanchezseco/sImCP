@@ -635,7 +635,7 @@ COL2
 Text GLabel 9450 950  1    50   Input ~ 0
 COL3
 Text GLabel 10900 950  1    50   Input ~ 0
-COL4
+COL5
 Wire Wire Line
 	7650 950  7650 1300
 Connection ~ 7650 1300
@@ -862,4 +862,6 @@ Wire Wire Line
 Connection ~ 9100 4600
 Wire Wire Line
 	9100 4600 10550 4600
+Text GLabel 10000 950  1    50   Input ~ 0
+COL4
 $EndSCHEMATC
