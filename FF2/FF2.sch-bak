@@ -1036,7 +1036,7 @@ U 1 1 60ABE940
 P 1750 6100
 F 0 "USB1" H 1857 6967 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1857 6876 50  0000 C CNN
-F 2 "" H 1900 6100 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 1900 6100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1900 6100 50  0001 C CNN
 	1    1750 6100
 	1    0    0    -1  
@@ -1346,7 +1346,7 @@ U 1 1 60BC6C6D
 P 4450 5650
 F 0 "SW1" H 4450 5935 50  0000 C CNN
 F 1 "RESET" H 4450 5844 50  0000 C CNN
-F 2 "" H 4450 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 4450 5850 50  0001 C CNN
 F 3 "~" H 4450 5850 50  0001 C CNN
 	1    4450 5650
 	1    0    0    -1  
@@ -1370,7 +1370,7 @@ U 1 1 60BCAC27
 P 4450 6150
 F 0 "SW2" H 4450 6435 50  0000 C CNN
 F 1 "BOOT" H 4450 6344 50  0000 C CNN
-F 2 "" H 4450 6350 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 4450 6350 50  0001 C CNN
 F 3 "~" H 4450 6350 50  0001 C CNN
 	1    4450 6150
 	1    0    0    -1  
