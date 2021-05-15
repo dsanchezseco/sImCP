@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RKJXT1F42001
+#/270083/500734/2.49/11/4/Switch
+DEF RKJXT1F42001 S 0 30 Y Y 1 F N
+F0 "S" 1750 300 50 H V L CNN
+F1 "RKJXT1F42001" 1750 200 50 H V L CNN
+F2 "RKJXT1F42001" 1750 100 50 H I L CNN
+F3 "http://www.alps.com/prod/info/E/HTML/MultiControl/Switch/RKJXT/RKJXT1F42001.html" 1750 0 50 H I L CNN
+F4 "Multi-Directional Switches 4 drectnl swtch cntr push w/ an encoder" 1750 -100 50 H I L CNN "Description"
+F5 "17" 1750 -200 50 H I L CNN "Height"
+F6 "688-RKJXT1F42001" 1750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ALPS/RKJXT1F42001?qs=6EGMNY9ZYDTsBzSTrhiL0w%3D%3D" 1750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ALPS" 1750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RKJXT1F42001" 1750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X PUSH 2 0 -100 200 R 50 50 0 0 P
+X GND_TERMINAL 3 0 -200 200 R 50 50 0 0 P
+X B 4 0 -300 200 R 50 50 0 0 P
+X ENCODER_B 5 0 -400 200 R 50 50 0 0 P
+X C 6 0 -500 200 R 50 50 0 0 P
+X COM 7 1900 0 200 L 50 50 0 0 P
+X ENCODER_COM 8 1900 -100 200 L 50 50 0 0 P
+X D_1 9 1900 -200 200 L 50 50 0 0 P
+X ENCODER_A 10 1900 -300 200 L 50 50 0 0 P
+X D_2 11 1900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1700 100 1700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

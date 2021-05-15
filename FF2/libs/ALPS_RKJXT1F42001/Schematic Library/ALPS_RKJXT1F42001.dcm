@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP RKJXT1F42001
+D Multi-Directional Switches 4 drectnl swtch cntr push w/ an encoder
+K
+F http://www.alps.com/prod/info/E/HTML/MultiControl/Switch/RKJXT/RKJXT1F42001.html
+$ENDCMP
+#
+#End Doc Library
