@@ -1603,4 +1603,57 @@ Connection ~ 6200 4000
 Wire Wire Line
 	7500 4000 7500 4750
 Connection ~ 7500 4000
+Text GLabel 3050 3500 2    50   Input ~ 0
+BOOT
+Text GLabel 3050 3400 2    50   Input ~ 0
+ROW0
+Wire Wire Line
+	2900 3400 2900 3500
+Wire Wire Line
+	2900 3500 3050 3500
+Wire Wire Line
+	2900 3400 3050 3400
+Text GLabel 2550 3500 2    50   Input ~ 0
+ROW1
+Text GLabel 2550 3600 2    50   Input ~ 0
+ROW2
+Text GLabel 2550 1200 2    50   Input ~ 0
+ROW3
+Text GLabel 2550 1300 2    50   Input ~ 0
+ROW4
+Text GLabel 2550 1400 2    50   Input ~ 0
+ROW5
+Wire Wire Line
+	2450 1400 2550 1400
+Wire Wire Line
+	2550 1300 2450 1300
+Wire Wire Line
+	2450 1200 2550 1200
+Wire Wire Line
+	2550 3500 2450 3500
+Wire Wire Line
+	2550 3600 2450 3600
+Wire Wire Line
+	2900 3400 2450 3400
+Connection ~ 2900 3400
+Text GLabel 2550 3300 2    50   Input ~ 0
+COL4
+Wire Wire Line
+	2550 3300 2450 3300
+Text GLabel 2550 2100 2    50   Input ~ 0
+COL3
+Text GLabel 2550 2200 2    50   Input ~ 0
+COL2
+Text GLabel 2550 2300 2    50   Input ~ 0
+COL1
+Text GLabel 2550 2400 2    50   Input ~ 0
+COL0
+Wire Wire Line
+	2550 2100 2450 2100
+Wire Wire Line
+	2450 2200 2550 2200
+Wire Wire Line
+	2550 2300 2450 2300
+Wire Wire Line
+	2450 2400 2550 2400
 $EndSCHEMATC
