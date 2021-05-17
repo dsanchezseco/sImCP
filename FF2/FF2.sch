@@ -1408,7 +1408,7 @@ U 1 1 60BC6C6D
 P 8050 6050
 F 0 "SW1" H 8050 6335 50  0000 C CNN
 F 1 "RESET" H 8050 6244 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 8050 6250 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 8050 6250 50  0001 C CNN
 F 3 "~" H 8050 6250 50  0001 C CNN
 	1    8050 6050
 	1    0    0    -1  
@@ -1432,7 +1432,7 @@ U 1 1 60BCAC27
 P 9300 6050
 F 0 "SW2" H 9300 6335 50  0000 C CNN
 F 1 "BOOT" H 9300 6244 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 9300 6250 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 9300 6250 50  0001 C CNN
 F 3 "~" H 9300 6250 50  0001 C CNN
 	1    9300 6050
 	1    0    0    -1  
