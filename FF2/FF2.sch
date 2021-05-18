@@ -1381,14 +1381,10 @@ Wire Wire Line
 	2550 2700 2450 2700
 Text GLabel 2550 1700 2    50   Input ~ 0
 SCK
-Text GLabel 2550 1500 2    50   Input ~ 0
+Text GLabel 3300 1500 2    50   Input ~ 0
 MOSI
-Text GLabel 2550 1600 2    50   Input ~ 0
+Text GLabel 3300 1600 2    50   Input ~ 0
 MISO
-Wire Wire Line
-	2550 1600 2450 1600
-Wire Wire Line
-	2550 1500 2450 1500
 Wire Wire Line
 	2550 1700 2450 1700
 $Comp
@@ -1741,4 +1737,22 @@ Wire Wire Line
 	2550 2600 2450 2600
 Wire Wire Line
 	2450 2500 2550 2500
+Wire Wire Line
+	2450 1500 3150 1500
+Wire Wire Line
+	2450 1600 3150 1600
+Text GLabel 3150 1400 1    50   Input ~ 0
+DOB1A
+Text GLabel 3150 1700 3    50   Input ~ 0
+DOB1B
+Wire Wire Line
+	3150 1700 3150 1600
+Connection ~ 3150 1600
+Wire Wire Line
+	3150 1600 3300 1600
+Wire Wire Line
+	3150 1500 3150 1400
+Connection ~ 3150 1500
+Wire Wire Line
+	3150 1500 3300 1500
 $EndSCHEMATC
