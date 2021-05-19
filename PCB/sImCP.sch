@@ -1688,7 +1688,7 @@ Wire Wire Line
 	2550 2300 2450 2300
 Wire Wire Line
 	2450 2400 2550 2400
-Text GLabel 3150 2500 2    50   Input ~ 0
+Text GLabel 3150 2600 2    50   Input ~ 0
 R1A
 Text GLabel 3150 2800 2    50   Input ~ 0
 R1B
@@ -1697,10 +1697,10 @@ R2A
 Text GLabel 3150 3000 2    50   Input ~ 0
 R2B
 Wire Wire Line
-	2550 2600 2450 2600
+	2550 2500 2450 2500
 Text GLabel 3150 3100 2    50   Input ~ 0
 DOB1A
-Text GLabel 3150 2400 2    50   Input ~ 0
+Text GLabel 3150 2500 2    50   Input ~ 0
 DOB1B
 $Comp
 L Mechanical:MountingHole H5
@@ -1743,14 +1743,14 @@ Wire Wire Line
 Wire Wire Line
 	3050 2800 3150 2800
 Wire Wire Line
-	3050 2500 3050 2400
-Wire Wire Line
-	3050 2400 3150 2400
+	3050 2600 3050 2500
 Wire Wire Line
 	3050 2500 3150 2500
 Wire Wire Line
-	2450 2500 3050 2500
-Connection ~ 3050 2500
+	3050 2600 3150 2600
+Wire Wire Line
+	2450 2600 3050 2600
+Connection ~ 3050 2600
 Wire Wire Line
 	2450 2900 3050 2900
 Connection ~ 3050 2900
@@ -1761,7 +1761,7 @@ Text GLabel 10350 6000 2    50   Input ~ 0
 POWERLED
 Wire Wire Line
 	10350 6000 10250 6000
-Text GLabel 2550 2600 2    50   Input ~ 0
+Text GLabel 2550 2500 2    50   Input ~ 0
 POWERLED
 Wire Wire Line
 	3150 3400 3050 3400
