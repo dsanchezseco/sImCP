@@ -3,4 +3,5 @@
   (lib (name ALPS_RKJXT1F42001)(type KiCad)(uri ${KIPRJMOD}/libs/ALPS_RKJXT1F42001/ALPS_RKJXT1F42001.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/libs/random-keyboards-parts.pretty)(options "")(descr ""))
   (lib (name RockerSwitch)(type KiCad)(uri ${KIPRJMOD}/libs/RockerSwitch/RockerSwitch.pretty)(options "")(descr ""))
+  (lib (name SOD-123FL)(type KiCad)(uri ${KIPRJMOD}/libs/SOD-123FL/SOD-123FL.pretty)(options "")(descr ""))
 )

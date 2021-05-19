@@ -1745,10 +1745,10 @@ Wire Wire Line
 Text GLabel 3150 1700 3    50   Input ~ 0
 DOB1B
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 60A7CB3E
 P 4150 7300
-F 0 "H?" H 4250 7346 50  0000 L CNN
+F 0 "H5" H 4250 7346 50  0000 L CNN
 F 1 "MountingHole" H 4250 7255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4150 7300 50  0001 C CNN
 F 3 "~" H 4150 7300 50  0001 C CNN
@@ -1756,10 +1756,10 @@ F 3 "~" H 4150 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 60A7D760
 P 4850 7300
-F 0 "H?" H 4950 7346 50  0000 L CNN
+F 0 "H6" H 4950 7346 50  0000 L CNN
 F 1 "MountingHole" H 4950 7255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4850 7300 50  0001 C CNN
 F 3 "~" H 4850 7300 50  0001 C CNN
