@@ -1379,12 +1379,10 @@ Text GLabel 2550 2700 2    50   Input ~ 0
 RESET
 Wire Wire Line
 	2550 2700 2450 2700
-Text GLabel 2550 1500 2    50   Input ~ 0
+Text GLabel 3200 1500 2    50   Input ~ 0
 MOSI
-Text GLabel 2550 1600 2    50   Input ~ 0
+Text GLabel 3650 1600 2    50   Input ~ 0
 MISO
-Wire Wire Line
-	2550 1700 2450 1700
 $Comp
 L power:GND #PWR0115
 U 1 1 60BC55AB
@@ -1688,19 +1686,19 @@ Wire Wire Line
 	2550 2300 2450 2300
 Wire Wire Line
 	2450 2400 2550 2400
-Text GLabel 3150 2600 2    50   Input ~ 0
+Text GLabel 3200 1400 2    50   Input ~ 0
 R1A
-Text GLabel 3150 2800 2    50   Input ~ 0
+Text GLabel 2550 2900 2    50   Input ~ 0
 R1B
-Text GLabel 3150 2900 2    50   Input ~ 0
+Text GLabel 3650 1700 2    50   Input ~ 0
 R2A
-Text GLabel 3150 3000 2    50   Input ~ 0
+Text GLabel 3200 1800 2    50   Input ~ 0
 R2B
 Wire Wire Line
 	2550 2500 2450 2500
-Text GLabel 3150 3100 2    50   Input ~ 0
+Text GLabel 2550 3000 2    50   Input ~ 0
 DOB1A
-Text GLabel 3150 2500 2    50   Input ~ 0
+Text GLabel 2550 2600 2    50   Input ~ 0
 DOB1B
 $Comp
 L Mechanical:MountingHole H5
@@ -1724,45 +1722,12 @@ F 3 "~" H 4850 7300 50  0001 C CNN
 	1    4850 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 1600 2550 1600
-Text GLabel 2550 1700 2    50   Input ~ 0
+Text GLabel 3200 1700 2    50   Input ~ 0
 SCK
-Wire Wire Line
-	2550 1500 2450 1500
-Wire Wire Line
-	3150 3100 3050 3100
-Wire Wire Line
-	3050 3100 3050 3000
-Wire Wire Line
-	3050 3000 3150 3000
-Wire Wire Line
-	3150 2900 3050 2900
-Wire Wire Line
-	3050 2900 3050 2800
-Wire Wire Line
-	3050 2800 3150 2800
-Wire Wire Line
-	3050 2600 3050 2500
-Wire Wire Line
-	3050 2500 3150 2500
-Wire Wire Line
-	3050 2600 3150 2600
-Wire Wire Line
-	2450 2600 3050 2600
-Connection ~ 3050 2600
-Wire Wire Line
-	2450 2900 3050 2900
-Connection ~ 3050 2900
-Wire Wire Line
-	2450 3000 3050 3000
-Connection ~ 3050 3000
 Text GLabel 10350 6000 2    50   Input ~ 0
 POWERLED
 Wire Wire Line
 	10350 6000 10250 6000
-Text GLabel 2550 2500 2    50   Input ~ 0
-POWERLED
 Wire Wire Line
 	3150 3400 3050 3400
 Wire Wire Line
@@ -1772,4 +1737,52 @@ Wire Wire Line
 Wire Wire Line
 	3050 3400 2450 3400
 Connection ~ 3050 3400
+$Comp
+L power:GND #PWR0119
+U 1 1 60B8A9AB
+P 10850 3350
+F 0 "#PWR0119" H 10850 3100 50  0001 C CNN
+F 1 "GND" H 10855 3177 50  0000 C CNN
+F 2 "" H 10850 3350 50  0001 C CNN
+F 3 "" H 10850 3350 50  0001 C CNN
+	1    10850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 3350 10250 3350
+Wire Wire Line
+	2550 2900 2450 2900
+Wire Wire Line
+	2550 3000 2450 3000
+Wire Wire Line
+	2450 1500 3100 1500
+Wire Wire Line
+	2450 1600 3550 1600
+Wire Wire Line
+	3650 1700 3550 1700
+Wire Wire Line
+	3550 1700 3550 1600
+Connection ~ 3550 1600
+Wire Wire Line
+	3550 1600 3650 1600
+Wire Wire Line
+	3200 1400 3100 1400
+Wire Wire Line
+	3100 1400 3100 1500
+Connection ~ 3100 1500
+Wire Wire Line
+	3100 1500 3200 1500
+Wire Wire Line
+	2450 1700 3100 1700
+Wire Wire Line
+	3200 1800 3100 1800
+Wire Wire Line
+	3100 1800 3100 1700
+Connection ~ 3100 1700
+Wire Wire Line
+	3100 1700 3200 1700
+Text GLabel 2550 2500 2    50   Input ~ 0
+POWERLED
+Wire Wire Line
+	2550 2600 2450 2600
 $EndSCHEMATC
