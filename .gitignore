@@ -19,3 +19,6 @@ _autosave-*
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Fuck OSX
+.DS_Store
