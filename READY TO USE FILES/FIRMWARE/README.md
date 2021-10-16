@@ -18,18 +18,18 @@ This is a delicate operation. Please follow all the steps and in case of doubt d
 2. open QMK toolbox
 3. click on open and select the downloaded .hex file
 
-[select the hex file](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-1.png)
+![select the hex file](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-1.png)
 ￼
 4. under MCU select atmega328p
 
-[select the MCU](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-2.png)
+![select the MCU](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-2.png)
 
 5. bridge the BOOT pins with a piece of wire or tweezers
 
-[select the MCU](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-2.1.jpg)
+![bridge boot](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-2.1.jpg)
 
 1. Connect the board. The green power light should be off and on the toolbox you should see the yellow line (you can keep the bridge in, if the light goes on, try again, the light has to stay off)
-[MCU recognized](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-3.png)
+![MCU recognized](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-3.png)
 
 ￼
 
@@ -37,7 +37,7 @@ This is a delicate operation. Please follow all the steps and in case of doubt d
 
 7. Click on Flash to start the process DO NOT UNPLUG THE BOARD OR CLOSE THE TOOLBOX!
 
-[flash](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-4.png)
+![flash](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-4.png)
 ￼
 
 When the process is finished you should see
@@ -45,4 +45,4 @@ When the process is finished you should see
 
 8. Reconnect the board  or briefly bridge the RESET pins and you are done
 
-[done](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-5.png)
+![done](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-5.png)
