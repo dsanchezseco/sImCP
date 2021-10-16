@@ -2,15 +2,15 @@
 
 or *simple ICP* for the friends
 
-![simcp](https://raw.githubusercontent.com/dsanchezseco/sImCP/master/images/sImCP.jpeg)
+![simcp](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/sImCP.jpeg)
 
 sImCP is **custom PCB** powered by an atmega328p to emulate the different aircraft up front controlers (UFC) and input control panels (ICP), mainly a mix of the F-18 and the F-16 panels but with support for others like the AV-8B or the A-10C, for flight simming in DCS an other simulators.
 
 The origin of the project was to have something in the empty space of the MFD in my cockpit, and as such the holes align with the holes and mounting of the Thrustmaster MFDs
 
-![mounted](https://raw.githubusercontent.com/dsanchezseco/sImCP/master/images/mounted.jpg)
+![mounted](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/mounted.jpg)
 
-![mounted side](https://raw.githubusercontent.com/dsanchezseco/sImCP/master/images/mounted_side.jpg)
+![mounted side](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/mounted_side.jpg)
 
 
 The features that define the **sImCP** are:
