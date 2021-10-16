@@ -42,7 +42,6 @@ This is a delicate operation. Please follow all the steps and in case of doubt d
 
 When the process is finished you should see
 ￼
+![done](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-5.png)
 
 8. Reconnect the board  or briefly bridge the RESET pins and you are done
-
-![done](https://raw.githubusercontent.com/dsanchezseco/sImCP/main/images/flashing-5.png)
