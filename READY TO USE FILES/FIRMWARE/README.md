@@ -1,7 +1,6 @@
-These files are the firmware for the sImCP keyboard. There are two variants
+These files are the firmware for the sImCP keyboard.
 
 * QMK : regular [QMK](https://github.com/qmk/qmk_firmware) firmware to act as a keyboard. It uses *modifier/s+key* for each of the actions. Can have collisions with default game keybinds but it is recognized in every game/sim that uses a keyboard.
-* Gamepad : custom firmware to act as a gamepad. It is recognized as an standalone device which uses buttons for each action. Do not have collisions with default keybinds but some games/sims may not recognized.
 
 # Flashing - CAUTION!!!
 
